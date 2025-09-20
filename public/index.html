@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Athira — Portfolio</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <script defer src="scripts/script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">Athira</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+<section class="hero">
+  <canvas id="hero-bg"></canvas>
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-text">
+        <h2>Hi, I'm <span class="accent">Athira</span></h2>
+        <p>I'm a passionate developer building web applications and solving problems with code.</p>
+        <a class="btn" href="#contact">Get in touch</a>
+      </div>
+      <div class="hero-image">
+        <img src="1000705347.jpg" alt="Athira" />
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+    <section id="about" class="container about">
+      <h3>About me</h3>
+      <p>
+        I'm a web developer experienced in building responsive and accessible websites.
+        I enjoy learning new technologies and working on meaningful projects.
+      </p>
+    </section>
+
+    <section id="projects" class="container projects">
+      <h3>Projects</h3>
+      <div class="grid">
+        <article class="card">
+          <h4>Doctor Appointment System</h4>
+          <p>A chat-bot enabled appointment system built with Python and SQLite.</p>
+          <a class="card-link" href="#" target="_blank">View project</a>
+        </article>
+
+        <article class="card">
+          <h4>Job Portal with Skill Matching</h4>
+          <p>MERN stack job portal with Python-based resume parsing and skill matching.</p>
+          <a class="card-link" href="#" target="_blank">View project</a>
+        </article>
+
+        <article class="card">
+          <h4>Handmade ArtiCraft Trading System</h4>
+          <p>A web platform where users can buy, sell, or trade handmade crafts (like jewelry, paintings, pottery, textiles)bulit with PHPand MYSQL.</p>
+          <a class="card-link" href="#" target="_blank">View project</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="skills" class="container skills">
+      <h3>Skills</h3>
+      <ul class="skills-list">
+        <li>HTML &amp; CSS</li>
+        <li>JavaScript (ES6+)</li>
+        <li>React</li>
+        <li>Node.js &amp; Express</li>
+        <li>Python &amp; Flask / Django</li>
+        <li>MongoDB / SQL</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="container contact">
+      <h3>Contact</h3>
+      <p>If you'd like to work together or have questions, send an email to <a href="mailto:athirasureshpuliyayil@gmail.com">athirasureshpuliyayil@gmail.com</a></p>
+
+      <form id="contactForm" class="contact-form">
+        <label>
+          Your name
+          <input type="text" name="name" required />
+        </label>
+        <label>
+          Your email
+          <input type="email" name="email" required />
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="4" required></textarea>
+        </label>
+        <button type="submit" class="btn">Send</button>
+        <p id="formStatus" class="form-status" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2025 Athira — Built with ❤️</p>
+    </div>
+  </footer>
+</body>
+</html>
