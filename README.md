@@ -34,14 +34,14 @@ Here are a few projects I’ve worked on:
 ## 🌐 Connect with Me
 
 - [GitHub](https://github.com/athirasureshpuliyayil-ai)  
-- [LinkedIn](https://www.linkedin.com/in/athira-ps)  
-- [Portfolio Website] – If you have one  
+- [LinkedIn](https://www.linkedin.com/in/athira-p-s-b01a482ba?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
+- [aboutme   Website] – If you have one  
 
 ---
 
 ## 📸 Profile
 
-![Profile Image](./profile.jpg) <!-- Replace with your actual image file path -->
+![Profile Image](./profile.jpg) 
 
 ---
 
